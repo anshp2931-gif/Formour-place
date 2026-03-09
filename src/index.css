@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-white: #fdfcf7;
+  --brand-brown: #4a4a4a;
+  --brand-tan: #e8dcc8;
+  --brand-sand: #d4cec1;
+}
+
+body {
+  background-color: var(--brand-white);
+  color: var(--brand-brown);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+}
