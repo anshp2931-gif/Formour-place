@@ -23,21 +23,35 @@ A simple and responsive **FormOurPlace-inspired website** built using **HTML & C
 ---
 
 ## 📂 Folder Structure
-
 ```
 formourplace/
 │
-├── images/              # All images used in project
+├── dist/                     # Production build files
 │
-├── index.html           # Home page
-├── cookware.html        # Cookware page
-├── bakeware.html        # Bakeware page
-├── login.html           # Login page
+├── src/
+│   ├── assets/              # Images, icons, and static assets
+│   │
+│   ├── components/          # Reusable UI components
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── ProductCard.jsx
+│   │   └── TopBanner.jsx
+│   │
+│   ├── pages/               # Page-level components
+│   │   ├── Home.jsx
+│   │   ├── Cookware.jsx
+│   │   ├── Bakeware.jsx
+│   │   └── Login.jsx
+│   │
+│   ├── App.jsx              # Main App component
+│   ├── index.css            # Global styles
+│   └── main.jsx             # Entry point
 │
-├── style.css            # Main styles
-├── cook.css             # Cookware styles
-├── bake.css             # Bakeware styles
-│
+├── index.html               # Root HTML file
+├── package.json             # Project dependencies
+├── package-lock.json
+├── postcss.config.js        # PostCSS config (if using Tailwind)
+├── .gitignore
 └── README.md
 ```
 
